@@ -1,0 +1,27 @@
+open-command: toko
+rows: 6
+title:
+  background: gui_shop
+  layers:
+    - { type: text, x: 8, text: "<white><bold>TOKO" }
+
+buttons:
+  roti:
+    slot: 10
+    material: BREAD
+    name: "<gold>Roti <gray>- <green>$50"
+    lore: ["<gray>Klik untuk membeli"]
+    actions:
+      - "[console] eco take %player% 50"
+      - "[console] give %player% bread 1"
+      - "[message] <green>Kamu membeli roti!"
+  area_besar:
+    slots: [14, 15, 16, 23, 24, 25]
+    invisible: true
+    name: "<yellow>Area klik besar"
+    actions: ["[message] <yellow>Kamu mengklik area besar."]
+  back:
+    slot: 49
+    material: ARROW
+    name: "<yellow>← Kembali"
+    actions: ["[open] profile"]

@@ -1,0 +1,41 @@
+# Layar contoh. Nama file = id layar. Buka: /uistudio open profile atau /profil
+open-command: profil
+permission: ""
+open-sound: "minecraft:block.chest.open"
+rows: 3
+
+title:
+  background: gui_profile       # nama file gambar di folder images/ (tanpa .png)
+  layers:                       # x = piksel dari tepi kiri jendela
+    - { type: text, x: 8, text: "<white><bold>PROFIL" }
+    - { type: text, x: 90, text: "<yellow>%player%" }
+
+buttons:
+  info:
+    slot: 10
+    material: PLAYER_HEAD
+    head: "%player%"
+    name: "<yellow>%player%"
+    lore: ["<gray>Uang: <green>$%money%", "<gray>Job: <white>%job%"]
+  gang:
+    slot: 12
+    material: SHIELD
+    name: "<gold>Gang / Keluarga"
+    actions: ["[command] gang menu"]
+  coin:
+    slot: 14
+    material: PAPER
+    frames: [coin_0, coin_1, coin_2, coin_3]   # animasi item (icons/coin_*.png)
+    frame-ticks: 4
+    name: "<gold>Koin berputar"
+    actions: ["[message] <gold>Ting!"]
+  shop:
+    slot: 16
+    material: EMERALD
+    name: "<aqua>Toko"
+    actions: ["[open] shop"]
+  close:
+    slot: 22
+    material: BARRIER
+    name: "<red>Tutup"
+    actions: ["[close]"]

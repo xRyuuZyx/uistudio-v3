@@ -1,0 +1,251 @@
+# Ukuran tampilan bawaan (height/ascent) untuk gambar default. Tidak berisi 'char'.
+images:
+  arbar_1:
+    height: 14
+    ascent: 14
+  arbar_10:
+    height: 14
+    ascent: 14
+  arbar_11:
+    height: 14
+    ascent: 14
+  arbar_12:
+    height: 14
+    ascent: 14
+  arbar_13:
+    height: 14
+    ascent: 14
+  arbar_14:
+    height: 14
+    ascent: 14
+  arbar_15:
+    height: 14
+    ascent: 14
+  arbar_16:
+    height: 14
+    ascent: 14
+  arbar_17:
+    height: 14
+    ascent: 14
+  arbar_18:
+    height: 14
+    ascent: 14
+  arbar_19:
+    height: 14
+    ascent: 14
+  arbar_2:
+    height: 14
+    ascent: 14
+  arbar_20:
+    height: 14
+    ascent: 14
+  arbar_3:
+    height: 14
+    ascent: 14
+  arbar_4:
+    height: 14
+    ascent: 14
+  arbar_5:
+    height: 14
+    ascent: 14
+  arbar_6:
+    height: 14
+    ascent: 14
+  arbar_7:
+    height: 14
+    ascent: 14
+  arbar_8:
+    height: 14
+    ascent: 14
+  arbar_9:
+    height: 14
+    ascent: 14
+  arbar_bg:
+    height: 14
+    ascent: 14
+  hpbar_1:
+    height: 14
+    ascent: 14
+  hpbar_10:
+    height: 14
+    ascent: 14
+  hpbar_11:
+    height: 14
+    ascent: 14
+  hpbar_12:
+    height: 14
+    ascent: 14
+  hpbar_13:
+    height: 14
+    ascent: 14
+  hpbar_14:
+    height: 14
+    ascent: 14
+  hpbar_15:
+    height: 14
+    ascent: 14
+  hpbar_16:
+    height: 14
+    ascent: 14
+  hpbar_17:
+    height: 14
+    ascent: 14
+  hpbar_18:
+    height: 14
+    ascent: 14
+  hpbar_19:
+    height: 14
+    ascent: 14
+  hpbar_2:
+    height: 14
+    ascent: 14
+  hpbar_20:
+    height: 14
+    ascent: 14
+  hpbar_3:
+    height: 14
+    ascent: 14
+  hpbar_4:
+    height: 14
+    ascent: 14
+  hpbar_5:
+    height: 14
+    ascent: 14
+  hpbar_6:
+    height: 14
+    ascent: 14
+  hpbar_7:
+    height: 14
+    ascent: 14
+  hpbar_8:
+    height: 14
+    ascent: 14
+  hpbar_9:
+    height: 14
+    ascent: 14
+  hpbar_bg:
+    height: 14
+    ascent: 14
+  ico_food:
+    height: 12
+    ascent: 8
+  ico_mic:
+    height: 12
+    ascent: 8
+  ico_mic_off:
+    height: 12
+    ascent: 8
+  ico_run:
+    height: 12
+    ascent: 8
+  ico_water:
+    height: 12
+    ascent: 8
+  logo:
+    height: 28
+    ascent: 16
+  num_0:
+    height: 14
+    ascent: 11
+  num_1:
+    height: 14
+    ascent: 11
+  num_2:
+    height: 14
+    ascent: 11
+  num_3:
+    height: 14
+    ascent: 11
+  num_4:
+    height: 14
+    ascent: 11
+  num_5:
+    height: 14
+    ascent: 11
+  num_6:
+    height: 14
+    ascent: 11
+  num_7:
+    height: 14
+    ascent: 11
+  num_8:
+    height: 14
+    ascent: 11
+  num_9:
+    height: 14
+    ascent: 11
+  num_comma:
+    height: 14
+    ascent: 11
+  num_dollar:
+    height: 14
+    ascent: 11
+  num_dot:
+    height: 14
+    ascent: 11
+  num_minus:
+    height: 14
+    ascent: 11
+  ring_1:
+    height: 24
+    ascent: 14
+  ring_10:
+    height: 24
+    ascent: 14
+  ring_11:
+    height: 24
+    ascent: 14
+  ring_12:
+    height: 24
+    ascent: 14
+  ring_13:
+    height: 24
+    ascent: 14
+  ring_14:
+    height: 24
+    ascent: 14
+  ring_15:
+    height: 24
+    ascent: 14
+  ring_16:
+    height: 24
+    ascent: 14
+  ring_17:
+    height: 24
+    ascent: 14
+  ring_18:
+    height: 24
+    ascent: 14
+  ring_19:
+    height: 24
+    ascent: 14
+  ring_2:
+    height: 24
+    ascent: 14
+  ring_20:
+    height: 24
+    ascent: 14
+  ring_3:
+    height: 24
+    ascent: 14
+  ring_4:
+    height: 24
+    ascent: 14
+  ring_5:
+    height: 24
+    ascent: 14
+  ring_6:
+    height: 24
+    ascent: 14
+  ring_7:
+    height: 24
+    ascent: 14
+  ring_8:
+    height: 24
+    ascent: 14
+  ring_9:
+    height: 24
+    ascent: 14
+  ring_bg:
+    height: 24
+    ascent: 14

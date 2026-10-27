@@ -1,0 +1,8 @@
+# Demo animasi: /uistudio hud show demo
+span: 240
+rows:
+  - type: bossbar
+    layers:
+      - { type: image, id: card, x: -60 }
+      - { type: animation, frames: [coin_0, coin_1, coin_2, coin_3], fps: 6, x: -56 }
+      - { type: text, text: "<gold>Animasi HUD", x: -44 }

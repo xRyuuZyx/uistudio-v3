@@ -1,0 +1,34 @@
+prefix: "<gray>[<gold>UI</gold>]</gray> "
+click-cooldown-ms: 150
+
+# ============ RESOURCE PACK ============
+# UIStudio membuat pack sendiri dari folder images/, icons/, models/ lalu mengirimnya ke pemain.
+pack:
+  # SELF_HOST = server membuka port HTTP sendiri (butuh port terbuka)
+  # URL       = kamu upload pack ke tempat lain (GitHub dll), isi 'url' di bawah
+  # NEXO      = salin ke plugins/Nexo/pack/external_packs (Nexo yang mengirim)
+  # NONE      = tidak mengirim apa-apa (kamu atur sendiri)
+  delivery: SELF_HOST
+  format: 75                  # pack_format untuk Minecraft 1.21.11
+  hide-bossbar-sprites: true  # sembunyikan bar boss bawaan (berlaku untuk SEMUA boss bar)
+  hide-vanilla-hud: true      # sembunyikan ikon hati / lapar / armor / napas bawaan
+  hide-vanilla-xp: false      # sembunyikan juga bar XP bawaan
+  required: false
+  prompt: "<gold>UIStudio</gold> membutuhkan resource pack"
+  self-host:
+    public-host: "127.0.0.1"  # GANTI ke IP/domain server yang bisa diakses pemain
+    port: 8083                # port TCP yang terbuka di hosting
+  url: ""                     # dipakai kalau delivery: URL
+  sha1: ""                    # opsional; kosong = dihitung dari file lokal
+
+# ============ HUD ============
+hud:
+  interval-ticks: 5
+  # Sumber angka uang bank untuk %bank%. Isi dengan placeholder PlaceholderAPI dari plugin bank-mu,
+  # contoh: "%namaplugin_bank%". Kalau belum punya, biarkan "0".
+  bank-placeholder: "0"
+  auto: [fivem]               # HUD yang otomatis tampil saat join (main / fivem / demo)
+
+messages:
+  no-screen: "<red>Layar <white>%screen%</white> tidak ditemukan."
+  no-permission: "<red>Kamu tidak punya izin membuka ini."

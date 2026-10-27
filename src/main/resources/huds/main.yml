@@ -1,0 +1,28 @@
+# HUD bawaan. x = piksel dari TENGAH layar (negatif = kiri, positif = kanan).
+# Tipe baris: bossbar (menumpuk di atas) | actionbar (di atas hotbar).
+# Tipe layer: image | text | bar | animation
+span: 240
+rows:
+  - type: bossbar
+    layers:
+      - { type: image, id: card, x: 80 }
+      - { type: image, id: ic_money, x: 84 }
+      - { type: text, text: "<green>$%money%", x: 96 }
+  - type: bossbar
+    layers:
+      - { type: image, id: card, x: 80 }
+      - { type: image, id: ic_job, x: 84 }
+      - { type: text, text: "<white>%job%", x: 96 }
+  - type: bossbar
+    layers:
+      - { type: image, id: card, x: 80 }
+      - { type: image, id: ic_gang, x: 84 }
+      - { type: text, text: "<yellow>%gang%", x: 96 }
+  - type: actionbar
+    layers:
+      - { type: image, id: ic_heart, x: -110 }
+      - { type: bar, image: seg, x: -100, segments: 10, value: "%health%", max: 20, color: "#ff4d4d", empty: "#33333d" }
+      - { type: image, id: ic_armor, x: -50 }
+      - { type: bar, image: seg, x: -40, segments: 10, value: "%armor%", max: 20, color: "#4da6ff", empty: "#33333d" }
+      - { type: image, id: ic_food, x: 20 }
+      - { type: bar, image: seg, x: 30, segments: 10, value: "%food%", max: 20, color: "#ffb84d", empty: "#33333d" }
